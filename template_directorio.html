@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<link href="estilos.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="980" border="0" cellspacing="0" cellpadding="0">
+  <tr class="titulos_directorio">
+    <td width="79" align="center">Nombre</td>
+    <td width="142" align="center">Contacto</td>
+    <td width="529" align="center">Servicios</td>
+    <td width="250" align="center">Información Online</td>
+  </tr>
+  <?  while ($row_directorio=mysql_fetch_assoc($query_result_directorio)){ ?>
+  <tr>
+    <td align="left" valign="middle"><? $echo row_directorio['Nombre']; ?></td>
+    <td align="left" valign="middle"><? ?></td>
+    <td align="left" valign="middle"><? ?></td>
+    <td align="center" valign="middle"><img src="images/promo.png" alt="" width="35" height="35" class="iconos" /><img src="images/mapa.png" alt="" width="35" height="35" class="iconos" /><img src="images/link.png" alt="" width="35"
+ height="35" class="iconos"/><img src="images/facebook.png" width="35" height="35" class="iconos" /><img src="images/twitter.png" width="35" height="35" class="iconos" /></td>
+  </tr><? } ?>
+  <tr>
+    <td colspan="4" align="left" valign="middle"><div class="division_directorio"></div></td>
+  </tr>
+</table>
+</body>
+</html>
