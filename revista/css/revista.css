@@ -54,14 +54,9 @@
 
 .bb-custom-wrapper nav a#bb-nav-next, .bb-custom-wrapper nav a#bb-nav-prev{
 	background: #0072bc;
-
-       
         border-bottom:5px solid #00488c;
         
 }
-
-
-
 
 
 .bb-custom-wrapper nav a:hover {
@@ -123,3 +118,8 @@
     
     border-radius: 10px !important;
 }
+
+
+
+
+

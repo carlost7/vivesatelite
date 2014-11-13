@@ -244,3 +244,78 @@
 	display: block;
 	position: relative;
 }
+
+
+
+
+/***** MEDIA QUERIES ****/
+@media (max-height : 800px) {
+    
+    .main, .container > header {
+        padding: 0.5em;
+        }
+    
+	
+	.bb-item img {
+        height: 490px !important;
+	}
+        
+        .bb-bookblock {
+        width: 638px;
+        height: 490px;
+        }
+
+
+.bb-item {
+	width: 638px !important;
+        height: 490px !important;
+        }
+
+.bb-content {
+	width: 638px;
+        height: 490px;
+        }
+
+
+.bb-page > div img {
+	
+        height: 490px;
+        }
+
+}
+
+@media (max-device-width: 400px) {
+			
+		    .main, .container > header {
+        padding: 0.5em;
+        }
+    
+	
+	.bb-item img {
+        height: 490px !important;
+	}
+        
+        .bb-bookblock {
+        width: 638px;
+        height: 490px;
+        }
+
+
+.bb-item {
+	width: 638px !important;
+        height: 490px !important;
+        }
+
+.bb-content {
+	width: 638px;
+        height: 490px;
+        }
+
+
+.bb-page > div img {
+	
+        height: 490px;
+        }
+        
+        
+}
