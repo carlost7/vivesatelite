@@ -3,7 +3,7 @@ session_start();
 if (!$_SESSION['loggedin'])
 {
     $_SESSION['error'] = "Inicia sesion";
-    header("location ../index.php");
+    header("Location ../index.php");
 }
 include ("../../includes/config.php");
 
@@ -34,7 +34,7 @@ include ("../../includes/config.php");
                         <th>Eliminar</th>
                     </tr>
                     <?php
-                    $query_directorio        = "select ID,Nombre from clientes order by clientes.Nombre";
+                    $query_directorio        = "select * from clientes order by clientes.Nombre";
                     $query_result_directorio = mysql_query($query_directorio, $db_conexion) or die(mysql_error());
                     while ($row_directorio          = mysql_fetch_assoc($query_result_directorio)) {
                         ?>

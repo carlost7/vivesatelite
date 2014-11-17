@@ -4,7 +4,7 @@ session_start();
 if (!$_SESSION['loggedin'])
 {
     $_SESSION['error'] = "Inicia sesion";
-    header("location ../index.php");
+    header("Location ../index.php");
 }
 include ("../../includes/config.php");
 
@@ -17,6 +17,7 @@ $query_result_subcategorias = mysql_query($query_sub_categorias, $db_conexion) o
 if (mysql_num_rows($query_result_subcategorias))
 {
     echo "<select name='subcategoria'>";
+    echo "<option value='0'>Subcategoria</option>";
     while ($row_subcategorias = mysql_fetch_assoc($query_result_subcategorias)) {
         echo "<option value=" . $row_subcategorias['ID'] . ">" . utf8_decode($row_subcategorias['subcategoria']) . "</option>";
     }

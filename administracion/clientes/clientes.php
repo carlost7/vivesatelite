@@ -1,9 +1,10 @@
 <?php
 session_start();
+
 if (!$_SESSION['loggedin'])
 {
     $_SESSION['error'] = "Inicia sesion";
-    header("location ../index.php");
+    header('Location: ../index.php');
 }
 include ("../../includes/config.php");
 ?>
@@ -16,15 +17,16 @@ include ("../../includes/config.php");
     <body>
         <div class="container">
             <?php
-            include "menu.php";
+            include "../layout/menu.php";
             ?>
             <div class="titulo">
                 <h1>Clientes</h1>
             </div>
             <div class="add_client">
                 <h2>Agregar un nuevo cliente</h2>
+                <?php include "../layout/session_messages.php"; ?>
                 <div class="formulario">
-                    <form method="post" action="agregar_cliente" enctype="multipart/form-data">
+                    <form method="post" action="agregar_cliente.php" enctype="multipart/form-data">
 
                         <div class="izquierda">
                             <ul>                            
@@ -32,19 +34,19 @@ include ("../../includes/config.php");
                                 <li><label for="Direccion">Direccion</label><br><input value="" type="text" placeholder='Direccion' name='Direccion'</li>
                                 <li><label for="Telefono">Telefono</label><br><input value="" type="text" placeholder='Telefono' name='Telefono'</li>
                                 <li><label for="e_mail">e_mail</label><br><input value="" type="text" placeholder='e_mail' name='e_mail'</li>
-                                <li><label for="Link">Link</label><br><input value="" type="text" placeholder='Link' name='Link'</li>
+                                <li><label for="Link">Link</label><br><input value="" type="file" placeholder='Link' name='Link'</li>                                                            
                                 <li><label for="lat">lat</label><br><input value="" type="text" placeholder='lat' name='lat'</li>
                                 <li><label for="lng">lng</label><br><input value="" type="text" placeholder='lng' name='lng'</li>
-                                <li><label for="twitter">twitter</label><br><input value="" type="text" placeholder='twitter' name='twitter'</li>
                             </ul>                            
                         </div>
                         <div>
                             <ul>
+                                <li><label for="twitter">twitter</label><br><input value="" type="text" placeholder='twitter' name='twitter'</li>
                                 <li><label for="facebook">facebook</label><br><input value="" type="text" placeholder='facebook' name='facebook'</li>
                                 <li><label for="pagina_web">pagina_web</label><br><input value="" type="text" placeholder='pagina_web' name='pagina_web'</li>
                                 <li><label for="Imagen">Imagen</label><br><input value="" type="file" placeholder='Imagen' name='Imagen'</li>
                                 <li><label for="Servicios">Servicios</label><br><input value="" type="text" placeholder='Servicios' name='Servicios'</li>
-                                <li><label for="Descuento">Descuento</label><br><input value="" type="file" placeholder='Descuento' name='Descuento'</li>                                                            
+                                <li><label for="Descuento">Descuento</label><br><input value="" type="text" placeholder='Descuento' name='Descuento'</li>
                                 <li>
                                     <?php
                                     //Obtenemos las categorias 
@@ -91,9 +93,9 @@ include ("../../includes/config.php");
                         ?>
                         <tr>
                             <td><?php echo $contador = $contador + 1; ?></td>
-                            <td><a href="mostrarclientes.php?id=<?php echo $row_directorio['ID']; ?>"><?php echo $row_directorio['Nombre']; ?></a></td>
+                            <td><a href="mostrarcliente.php?id=<?php echo $row_directorio['ID']; ?>"><?php echo $row_directorio['Nombre']; ?></a></td>
                             <td>
-                                <form method="post" action="eliminarcliente.php">
+                                <form method="post" action="eliminar_cliente.php">
                                     <input type="hidden" name="id" value="<?php echo $row_directorio['ID']; ?>">    
                                     <input type="submit" name="eliminar" value="eliminar">
                                 </form>                                

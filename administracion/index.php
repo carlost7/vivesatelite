@@ -13,11 +13,14 @@
         {
             ?>      
             <?php
-            include "menu.php";
+            include "layout/menu.php";
             ?>
             <ul>
                 <li>
                     <a href="clientes/clientes.php">Clientes</a>
+                </li>
+                <li>
+                    <a href="revista/index.php">Revista actual</a>
                 </li>
             </ul>
             <?php
