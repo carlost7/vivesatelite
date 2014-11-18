@@ -1,6 +1,6 @@
 <?php
 require_once 'functions.php';
-include ("http://vivesatelite.mx/includes/config.php");
+include ("includes/config.php");
 ?>
 <!DOCTYPE html>
 <html lang="es" class="no-js demo-1">
