@@ -76,7 +76,7 @@ include ("includes/config.php");
 
                 <a href="http://vivesatelite.mx/default.php"><img src="images/logo.png" alt="Vive Satélite" class="especial_logo" /></a>
 
-                <br/><br/>
+                <br/><br/><br/>
                 <h1> <span class="azul"> &bull; </span> Ediciones anteriores <span class="azul"> &bull; </span> </h1>
 
 

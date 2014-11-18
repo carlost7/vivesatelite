@@ -7,10 +7,9 @@ body {
 	font: normal 14px "Century Gothic", Century Gothic;
 }
 .wrap {
-	position:absolute;
-	width: 900px; 
-	right:0px;
-	top:25px;
+	left: 79px;
+    position: relative;
+    top: 50px;
 }
 
 .logo
