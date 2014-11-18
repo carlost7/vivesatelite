@@ -24,7 +24,8 @@ include ("../../includes/config.php");
             <div class="add_client">
                 <h2>Agregar un nuevo cliente</h2>
                 <div class="formulario">
-                    <form method="post" action="agregar_cliente" enctype="multipart/form-data">
+                    <?php include "../layout/session_messages.php"; ?>        
+                    <form method="post" action="agregar_cliente.php" enctype="multipart/form-data">
 
                         <div class="izquierda">
                             <ul>                            
@@ -35,16 +36,16 @@ include ("../../includes/config.php");
                                 <li><label for="Link">Link</label><br><input value="" type="text" placeholder='Link' name='Link'</li>
                                 <li><label for="lat">lat</label><br><input value="" type="text" placeholder='lat' name='lat'</li>
                                 <li><label for="lng">lng</label><br><input value="" type="text" placeholder='lng' name='lng'</li>
-                                <li><label for="twitter">twitter</label><br><input value="" type="text" placeholder='twitter' name='twitter'</li>
                             </ul>                            
                         </div>
                         <div>
                             <ul>
+                                <li><label for="twitter">twitter</label><br><input value="" type="text" placeholder='twitter' name='twitter'</li>
                                 <li><label for="facebook">facebook</label><br><input value="" type="text" placeholder='facebook' name='facebook'</li>
                                 <li><label for="pagina_web">pagina_web</label><br><input value="" type="text" placeholder='pagina_web' name='pagina_web'</li>
-                                <li><label for="Imagen">Imagen</label><br><input value="" type="file" placeholder='Imagen' name='Imagen'</li>
+                                <li><label for="Imagen">Logotipo</label><br><input value="" type="file" placeholder='Imagen' name='Imagen'</li>
                                 <li><label for="Servicios">Servicios</label><br><input value="" type="text" placeholder='Servicios' name='Servicios'</li>
-                                <li><label for="Descuento">Descuento</label><br><input value="" type="file" placeholder='Descuento' name='Descuento'</li>                                                            
+                                <li><label for="Descuento">Publicidad</label><br><input value="" type="file" placeholder='Descuento' name='Descuento'</li>                                                            
                                 <li>
                                     <?php
                                     //Obtenemos las categorias 
