@@ -122,7 +122,7 @@ $(document).ready(function($){
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <td align="right"><a href="revista/Default.html" target="_blank"><img src="images/boton_ver_revista.png" width="95" height="30" class="boton_verrevista" /></a></td>
+        <td align="right"><a href="revista/index.php" target="_blank"><img src="images/boton_ver_revista.png" width="95" height="30" class="boton_verrevista" /></a></td>
         <td>&nbsp;</td>
       </tr>
       <tr>

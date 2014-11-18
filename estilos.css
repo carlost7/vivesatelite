@@ -9,7 +9,7 @@ body {
 .wrap {
 	position:absolute;
 	width: 900px; 
-	left:79px;
+	right:0px;
 	top:25px;
 }
 

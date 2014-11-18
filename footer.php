@@ -1,12 +1,12 @@
 <table width="1000" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td><img src="images/banner_footer.png" width="1000" height="69" /></td>
+    <td><img src="http://vivesatelite.mx/images/banner_footer.png" width="1000" height="69" /></td>
   </tr>
   <tr>
     <td align="center" bgcolor="#FFFFFF">&nbsp;</td>
   </tr>
   <tr>
-    <td align="center" bgcolor="#FFFFFF"><iframe frameborder="0" src="margin.php"width="1000" height="120" allowtransparency="true" scrolling="no"></iframe></td>
+    <td align="center" bgcolor="#FFFFFF"><iframe frameborder="0" src="http://vivesatelite.mx/margin.php"width="1000" height="120" allowtransparency="true" scrolling="no"></iframe></td>
   </tr>
   <tr>
     <td bgcolor="#FFFFFF">&nbsp;</td>
@@ -21,7 +21,7 @@
         <td width="410" align="center" valign="middle"><p>Vive Sat&eacute;lite 2013</p>
           <p>Mail: lateral@live.com.mx </p></td>
         <td width="151" align="center" valign="middle">Lateral Creativos</td>
-        <td width="135" align="center" valign="middle"><img src="images/logo_lateralcreativos.png" width="79" height="85" /></td>
+        <td width="135" align="center" valign="middle"><img src="http://vivesatelite.mx/images/logo_lateralcreativos.png" width="79" height="85" /></td>
       </tr>
     </table></td>
   </tr>
