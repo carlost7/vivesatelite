@@ -1,5 +1,5 @@
 <?php
-require_once 'funciones.php';
+require_once 'functions.php';
 
    if(!isset($_GET['year']) || !isset($_GET['month'])){
          echo "se requiere el año y mes para mostrar la revista";

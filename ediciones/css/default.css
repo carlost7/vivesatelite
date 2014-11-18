@@ -19,10 +19,15 @@ body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 
+html{
+    background-color: #c0c0c0;
+}
+
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #777;
 	background: #f6f6f6;
+        width: 1000px;
 }
 
 a {
@@ -48,7 +53,8 @@ a img {
 }
 
 .container {
-	height: 100%;
+	
+        background: url(../images/fondo.jpg) repeat #000;
 }
 
 .container > header {
@@ -208,7 +214,9 @@ a img {
 
 .demo-1 body {
 	color: #87968e;
-	background: url(../images/fondo.jpg) repeat #000; 
+	
+        margin:0 auto;
+        width: 1000px;
         
 }
 
