@@ -99,7 +99,7 @@ $(document).ready(function($){
     <td><table width="1000" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td width="447" align="center"><div class="revista"></div>
-          <a href="revista/Default.html" target="_blank"><img src="portadas/2014/febrero.png" width="400" height="551" border="0" /></a></td>
+          <a href="revista/Default.html" target="_blank"><img src="portadas/2014/noviembre.png" width="400" height="551" border="0" /></a></td>
         <td width="553" align="center"><table width="520" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td align="center"><div class="contenido_revista">
