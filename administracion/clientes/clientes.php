@@ -93,7 +93,7 @@ include ("../../includes/config.php");
                         ?>
                         <tr>
                             <td><?php echo $contador = $contador + 1; ?></td>
-                            <td><a href="mostrarcliente.php?id=<?php echo $row_directorio['ID']; ?>"><?php echo $row_directorio['Nombre']; ?></a></td>
+                            <td><?php echo $row_directorio['Nombre']; ?></td>
                             <td>
                                 <form method="post" action="eliminar_cliente.php">
                                     <input type="hidden" name="id" value="<?php echo $row_directorio['ID']; ?>">    

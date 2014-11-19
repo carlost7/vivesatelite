@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,8 +7,8 @@
         <link href="../css/admin.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <?php session_start(); ?>
-        <?php include "session_messages.php"; ?>        
+        
+        <?php include "layout/session_messages.php"; ?>        
         <?php
         if ($_SESSION['loggedin'])
         {
