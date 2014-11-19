@@ -127,28 +127,28 @@ function MM_callJS(jsStr) { //v2.0
     <td colspan="8" align="left" class="titulo_edicionesanteriores">Octubre  2014</td>
   </tr>
   <tr>
-    <td width="255" align="center"><a href="#"><img src="fotos/octubre2014/1.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_01\')')" /></a></td>
-    <td width="422" colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/2.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_02\')')" /></a></td>
-    <td width="211" colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/3.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_03\')')" /></a></td>
+    <td width="255" align="center"><a href="#"><img src="fotos/octubre/2014/1.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_1\')')" /></a></td>
+    <td width="422" colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/2.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_2\')')" /></a></td>
+    <td width="211" colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/3.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_3\')')" /></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="#"><img src="fotos/octubre2014/thumbs/04.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_04\')')" /></a></td>
-    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/thumbs/05.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_05\')')" /></a></td>
-    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/thumbs/06.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_06\')')" /></a></td>
+    <td align="center"><a href="#"><img src="fotos/octubre2014/4.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_4\')')" /></a></td>
+    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/5.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_5\')')" /></a></td>
+    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/6.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_6\')')" /></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="#"><img src="fotos/octubre2014/thumbs/07.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_07\')')" /></a></td>
-    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/thumbs/08.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_08\')')" /></a></td>
-    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/thumbs/09.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_09\')')" /></a></td>
+    <td align="center"><a href="#"><img src="fotos/octubre2014/7.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_7\')')" /></a></td>
+    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/8.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_8\')')" /></a></td>
+    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/9.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_9\')')" /></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="#"><img src="fotos/octubre2014/thumbs/10.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_10\')')" /></a></td>
-    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/thumbs/11.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_11\')')" /></a></td>
-    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/thumbs/12.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_12\')')" /></a></td>
+    <td align="center"><a href="#"><img src="fotos/octubre2014/10.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_10\')')" /></a></td>
+    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/11.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_11\')')" /></a></td>
+    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/12.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_12\')')" /></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="#"><img src="fotos/octubre2014/thumbs/13.JPG" alt="" width="113" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_13\')')" /></a></td>
-    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/thumbs/14.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2013_14\')')" /></a></td>
+    <td align="center"><a href="#"><img src="fotos/octubre2014/13.JPG" alt="" width="113" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_13\')')" /></a></td>
+    <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/14.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_14\')')" /></a></td>
     <td colspan="2" align="center">&nbsp;</td>
   </tr>
   <tr></tr>
