@@ -125,7 +125,7 @@ function MM_swapImage() { //v3.0
         <td colspan="4" align="center" class="titulo_anios"> A&ntilde;o 2014</td>
         </tr>
       <tr>
-        <td align="center" class="titulo_edicionesanteriores"><a href="fotos_octubre2014.php" target="_blank"><img src="fotos/octubre2014/octubre2014.png" alt="" width="200" height="138" border="0" id="Image42" onmouseover="MM_swapImage('Image42','','fotos/diciembre2013/over.png','Image41','','fotos/noviembre2013/over.png','Image6','','fotos/noviembre2012/over-collage_fotos_noviembre2012.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>   
+        <td align="center" class="titulo_edicionesanteriores"><a href="fotos_octubre2014.php" target="_blank"><img src="fotos/octubre2014/octubre2014.png" alt="" width="200" height="138" border="0" id="Image42" onmouseover="MM_swapImage('Image43','','fotos/octubre2014/over_octubre2014.jpg','Image41','','fotos/noviembre2013/over.png','Image6','','fotos/noviembre2012/over-collage_fotos_noviembre2012.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>   
       </tr>
             
             
