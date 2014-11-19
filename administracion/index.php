@@ -8,7 +8,7 @@
     </head>
     <body>
         
-        <?php include "session_messages.php"; ?>        
+        <?php include "layout/session_messages.php"; ?>        
         <?php
         if ($_SESSION['loggedin'])
         {
