@@ -119,13 +119,24 @@ function MM_swapImage() { //v3.0
         <td colspan="4" align="center"><table width="520" border="0" cellspacing="0" cellpadding="0">
         </table></td>
         </tr>
+            
+            
+            <tr>
+        <td colspan="4" align="center" class="titulo_anios"> A&ntilde;o 2014</td>
+        </tr>
+      <tr>
+        <td align="center" class="titulo_edicionesanteriores"><a href="fotos_octubre2014.php" target="_blank"><img src="fotos/octubre2014/octubre2014.png" alt="" width="200" height="138" border="0" id="Image42" onmouseover="MM_swapImage('Image42','','fotos/diciembre2013/over.png','Image41','','fotos/noviembre2013/over.png','Image6','','fotos/noviembre2012/over-collage_fotos_noviembre2012.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>   
+      </tr>
+            
+            
       <tr>
         <td colspan="4" align="center" class="titulo_anios"> A&ntilde;o 2013</td>
         </tr>
       <tr>
         <td align="center" class="titulo_edicionesanteriores"><a href="fotos_diciembre2013.php" target="_blank"><img src="fotos/diciembre2013/collage_fotos_diciembre2013.png" alt="" width="200" height="138" border="0" id="Image42" onmouseover="MM_swapImage('Image42','','fotos/diciembre2013/over.png','Image41','','fotos/noviembre2013/over.png','Image6','','fotos/noviembre2012/over-collage_fotos_noviembre2012.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
         <td align="center" class="titulo_edicionesanteriores"><a href="fotos_noviembre2013.php" target="_blank"><img src="fotos/noviembre2013/collage_fotos_noviembre2013.png" alt="" width="200" height="138" border="0" id="Image41" onmouseover="MM_swapImage('Image41','','fotos/noviembre2013/over.png','Image6','','fotos/noviembre2012/over-collage_fotos_noviembre2012.png',1)" onmouseout="MM_swapImgRestore()" /></a></td>
-        <td align="center" class="titulo_edicionesanteriores"><a href="fotos_octubre2013.php" target="_blank"><img src="fotos/octubre2013/octubre2013.png" width="200" height="138" id="Image40" onmouseover="MM_swapImage('Image40','','fotos/octubre2013/hover-octubre2013.png',1)" onmouseout="MM_swapImgRestore()" border="0" /></a></td>
+        <td align="center" class="titulo_edicionesanterio<tr>
+      res"><a href="fotos_octubre2013.php" target="_blank"><img src="fotos/octubre2013/octubre2013.png" width="200" height="138" id="Image40" onmouseover="MM_swapImage('Image40','','fotos/octubre2013/hover-octubre2013.png',1)" onmouseout="MM_swapImgRestore()" border="0" /></a></td>
         <td align="center" class="titulo_edicionesanteriores"><a href="fotos_septiembre2013.php" target="_blank"><img src="fotos/septiembre2013/collage_fotos_septiembre2013.png" width="200" height="138" onmouseover="" border="0" /></a></td>
       </tr>
       <tr>
