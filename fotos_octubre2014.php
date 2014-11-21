@@ -137,7 +137,7 @@ function MM_callJS(jsStr) { //v2.0
     <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/6.jpg" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_6\')')" /></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="#"><img src="fotos/octubre2014/7.JPG" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_7\')')" /></a></td>
+    <td align="center"><a href="#"><img src="fotos/octubre2014/7.jpg" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_7\')')" /></a></td>
     <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/8.jpg" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_8\')')" /></a></td>
     <td colspan="2" align="center"><a href="#"><img src="fotos/octubre2014/9.jpg" alt="" width="255" height="170" border="0" onclick="MM_callJS('GroupDelegate(\'octubre2014_9\')')" /></a></td>
   </tr>
