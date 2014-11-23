@@ -113,7 +113,7 @@ include ("includes/config.php");
                                                                   <td align="center">&nbsp;</td>
                                                             </tr>
                                                             <tr>
-                                                                  <td><div class="contenido_galeria_inicio"><iframe width="515" height="315" frameborder="0" src="galeria.html" scrolling="no"></iframe></div></td>
+                                                                  <td><div class="contenido_galeria_inicio"><iframe width="515" height="315" frameborder="0" src="galeria.php" scrolling="no"></iframe></div></td>
                                                             </tr>
                                                       </table></td>
                                           </tr>
