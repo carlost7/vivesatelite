@@ -7,7 +7,6 @@ if (!$_SESSION['loggedin'])
 }
 include ("../../includes/config.php");
 
-
 $archivo = fopen("../../revista/mes.txt", "w") or die("Unable to open file!");
 
 $txt = $_POST['mes'];

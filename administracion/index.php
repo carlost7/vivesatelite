@@ -23,6 +23,15 @@
                 <li>
                     <a href="revista/index.php">Revista actual</a>
                 </li>
+                <li>
+                    <a href="revista_anterior/index.php">Revistas anteriores</a>
+                </li>
+                <li>
+                    <a href="fotos/index.php">Fotos</a>
+                </li>
+                <li>
+                    <a href="galeria_principal/index.php">Galeria (Pag. principal)</a>
+                </li>
             </ul>
             <?php
         }
