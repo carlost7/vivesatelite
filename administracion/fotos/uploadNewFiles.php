@@ -16,6 +16,8 @@ if (!empty($_FILES))
 
       $targetPath = $storeFolder;  //4
 
+      print_r($targetPath);
+      
       if (!file_exists($targetPath))
       {
             if (!mkdir($targetPath, 0777, true))
@@ -23,6 +25,7 @@ if (!empty($_FILES))
                   $error = error_get_last();
                   print_r($error);
             }
+            print_r("cree el archivo");
       }
 
       $targetFile = $targetPath . $_FILES['file']['name'];  //5
