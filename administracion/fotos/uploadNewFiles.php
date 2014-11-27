@@ -7,7 +7,7 @@ if (!$_SESSION['loggedin'])
       header('Location: ../index.php');
 }
 
-$storeFolder = '../../fotos/' . $_POST['year'] . '/' . $_POST['mes']."/";
+$storeFolder = '../../fotos/' . $_POST['year'] . '/' . $_POST['mes'] . "/";
 
 if (!empty($_FILES))
 {
@@ -18,7 +18,11 @@ if (!empty($_FILES))
 
       if (!file_exists($targetPath))
       {
-            mkdir($targetPath, 0777, true);
+            if (!mkdir($targetPath, 0777, true))
+            {
+                  $error = error_get_last();
+                  echo $error['message'];
+            }
       }
 
       $targetFile = $targetPath . $_FILES['file']['name'];  //5
