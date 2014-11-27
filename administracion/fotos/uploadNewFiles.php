@@ -21,7 +21,7 @@ if (!empty($_FILES))
             if (!mkdir($targetPath, 0777, true))
             {
                   $error = error_get_last();
-                  echo $error['message'];
+                  print_r($error);
             }
       }
 
