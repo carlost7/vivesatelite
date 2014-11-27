@@ -16,16 +16,14 @@ if (!empty($_FILES))
 
       $targetPath = $storeFolder;  //4
 
-      print_r($targetPath);
-      
       if (!file_exists($targetPath))
       {
             if (!mkdir($targetPath, 0777, true))
             {
-                  $error = error_get_last();
-                  print_r($error);
+                  echo "no pude crearlo";
+                  exit();
             }
-            print_r("cree el archivo");
+            echo("cree el archivo");
       }
 
       $targetFile = $targetPath . $_FILES['file']['name'];  //5
