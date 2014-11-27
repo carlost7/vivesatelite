@@ -22,10 +22,7 @@ if (!empty($_FILES))
             {
                   echo "no pude crearlo";
                   exit();
-            }
-            echo "cree el archivo";
-      }else{
-            echo"ya existe";
+            }            
       }
 
       $targetFile = $targetPath . $_FILES['file']['name'];  //5
