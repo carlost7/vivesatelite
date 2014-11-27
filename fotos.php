@@ -29,6 +29,12 @@ require_once 'functions.php';
 
         <link href="menu.css" rel="stylesheet" type="text/css" />
         <link href="css/skins/white.css" rel="stylesheet" type="text/css" />
+        
+        <link type="text/css" rel="stylesheet" href="widget/css/rcarousel.css">
+        
+        <link type="text/css" rel="stylesheet" href="ediciones/css/revista.css">
+        <link type="text/css" rel="stylesheet" href="ediciones/css/default.css">
+        <link type="text/css" rel="stylesheet" href="ediciones/css/bookblock.css">
 
 
         <script src="js/modernizr.custom.js"></script>
@@ -53,13 +59,14 @@ require_once 'functions.php';
                 </div>
 
 
-                <a href="http://vivesatelite.mx/default.php"><img src="images/logo.png" alt="Vive Satélite" class="especial_logo" /></a>
+                <a href="http://vivesatelite.mx/default.php"><img src="images/logo.png" alt="Vive Satélite" class="especial_logo2" /></a>
 
-                    <h1> <span class="azul"> &bull; </span> Fotos <span class="azul"> &bull; </span> </h1>
+                <br/><br/> <br/>
+                <h1> <span class="azul"> &bull; </span> Fotos <span class="azul"> &bull; </span> </h1>
 
 
                 </header>
-            </div>
+           
             <div class="main clearfix">
 
                 <?php
@@ -105,6 +112,8 @@ require_once 'functions.php';
             </div>
 
         </div><!-- /container -->
+        
+         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="js/grid.js"></script>

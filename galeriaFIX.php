@@ -59,7 +59,7 @@ if (!isset($_GET['year']) || !isset($_GET['month']))
                 </div>
 
 
-                <a href="http://vivesatelite.mx/default.php"><img src="images/logo.png" alt="Vive Satélite" class="especial_logo" /></a>
+                <a href="http://vivesatelite.mx/default.php"><img src="images/logo.png" alt="Vive Satélite" class="especial_logo2" /></a>
 
                 <h1> <span class="azul"> &bull; </span> <?php echo getName($_GET['month']) . " - " . $_GET['year']; ?> <span class="azul"> &bull; </span> </h1>
 

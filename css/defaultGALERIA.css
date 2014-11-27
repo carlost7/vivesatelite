@@ -127,6 +127,14 @@ a {
     z-index:1000;
 }
 
+.especial_logo2{
+    position: absolute;
+    left: 3%;
+    top: 0%;
+    width:14%;
+    z-index:1000;
+}
+
 
 /* MEDIA QUERIES*/
 

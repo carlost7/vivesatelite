@@ -109,7 +109,16 @@
     position: absolute;
     left: 20%;
     top: 0%;
-    width:10%;
+    width:12%;
+    z-index:1000;
+}
+
+
+.especial_logo2{
+    position: absolute;
+    left: 3%;
+    top: 0%;
+    width:14%;
     z-index:1000;
 }
 
@@ -123,10 +132,16 @@
 
 
 .titulo{
-    background-color: rgb(0, 113, 189);
-    color:#fff;
-    font-size: 24px;
-    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom:1px solid #111;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    color: #fff;
+font-size: 24px;
+font-weight: bold;
+width: 50%;
+margin: 0 auto;
+padding: 1%;
+border-radius: 8px;
 }
 
 
