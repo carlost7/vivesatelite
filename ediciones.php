@@ -17,22 +17,22 @@ include ("includes/config.php");
         <link rel="stylesheet" type="text/css" href="css/default.css" />
         <link rel="stylesheet" type="text/css" href="css/bookblock.css" />
 
-        <link href="../estilos.css" rel="stylesheet" type="text/css" />
-        <link href="../css/dcmegamenu.css" rel="stylesheet" type="text/css" />
+        <link href="estilos.css" rel="stylesheet" type="text/css" />
+        <link href="css/dcmegamenu.css" rel="stylesheet" type="text/css" />
 
-        <link href="../menu.css" rel="stylesheet" type="text/css" />
-        <link href="../css/skins/white.css" rel="stylesheet" type="text/css" />
+        <link href="menu.css" rel="stylesheet" type="text/css" />
+        <link href="css/skins/white.css" rel="stylesheet" type="text/css" />
 
 
         <!-- custom demo style -->
-        <link rel="stylesheet" type="text/css" href="css/revista.css" />
+        <link rel="stylesheet" type="text/css" href="ediciones/css/revista.css" />
         <script src="js/modernizr.custom.js"></script>
 
 
 
-        <script type="text/javascript" src="../js/jquery.min.js"></script>
-        <script type='text/javascript' src='../js/jquery.hoverIntent.minified.js'></script>
-        <script type='text/javascript' src='../js/jquery.dcmegamenu.1.2.js'></script>
+        <script type="text/javascript" src="ediciones/js/jquery.min.js"></script>
+        <script type='text/javascript' src='ediciones/js/jquery.hoverIntent.minified.js'></script>
+        <script type='text/javascript' src='ediciones/js/jquery.dcmegamenu.1.2.js'></script>
         <script type="text/javascript">
               $(document).ready(function ($) {
                   $('#mega-menu-tut').dcMegaMenu({
@@ -70,7 +70,7 @@ include ("includes/config.php");
 
 
                 <div class="pleca_azul_contacto">
-                    <a href="vive-krd.php" target="_blank"><img src="../images/vivekrd.jpg" width="126" height="37" border="0" /></a><a href="https://www.facebook.com/pages/Vive-Satelite/274638523400" target="_blank"><img src="../images/siguenos_fb.jpg" width="107" height="37" border="0" /></a><a href="https://twitter.com/vivesatelite" target="_blank"><img src="../images/twitter.jpg" width="34" height="37" border="0" /></a>
+                    <a href="vive-krd.php" target="_blank"><img src="images/vivekrd.jpg" width="126" height="37" border="0" /></a><a href="https://www.facebook.com/pages/Vive-Satelite/274638523400" target="_blank"><img src="../images/siguenos_fb.jpg" width="107" height="37" border="0" /></a><a href="https://twitter.com/vivesatelite" target="_blank"><img src="../images/twitter.jpg" width="34" height="37" border="0" /></a>
                 </div>
 
 
@@ -129,7 +129,7 @@ include ("includes/config.php");
             </div>
 
             <div id="class">
-                <?php include("../footer.php"); ?>
+                <?php include("footer.php"); ?>
             </div>
 
         </div>
