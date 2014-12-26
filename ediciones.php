@@ -65,7 +65,7 @@ include ("includes/config.php");
                 <div class="logo"></div>
 
                 <div class="wrap">
-                    <?php include("../menu.php"); ?>
+                    <?php include("menu.php"); ?>
                 </div>
 
 
