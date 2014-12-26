@@ -41,7 +41,7 @@ require_once '../functions.php';
             </header>
             <div class="main clearfix">
                 <?php
-                $directory = './ediciones/img_revista_mes/'.$_GET['year']."/".$_GET['month'];
+                $directory = 'img_revista_mes/'.$_GET['year']."/".$_GET['month'];
                 $scanned_directory = array_diff(scandir($directory), array('..', '.'));
                 natsort($scanned_directory);
                 ?>
