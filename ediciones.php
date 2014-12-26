@@ -14,8 +14,8 @@ include ("includes/config.php");
         <meta name="author" content="Vive Satélite" />
 
         <!-- Hojas de estilo -->
-        <link rel="stylesheet" type="text/css" href="css/default.css" />
-        <link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+        <link rel="stylesheet" type="text/css" href="ediciones/css/default.css" />
+        <link rel="stylesheet" type="text/css" href="ediciones/css/bookblock.css" />
 
         <link href="estilos.css" rel="stylesheet" type="text/css" />
         <link href="css/dcmegamenu.css" rel="stylesheet" type="text/css" />
