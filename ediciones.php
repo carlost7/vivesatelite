@@ -86,7 +86,7 @@ include ("includes/config.php");
 
 
                 <?php
-                $directory = 'img_revista_mes/';
+                $directory = 'ediciones/img_revista_mes/';
                 $scanned_directory = array_diff(scandir($directory, 1), array('..', '.'));
                 foreach ($scanned_directory as $year) {
                       ?>
@@ -109,7 +109,7 @@ include ("includes/config.php");
                                             <div class="titulo_mes"><?php echo getName($mes); ?></div>
                                         </div>
                                         <div class="portada">
-                                            <a href="show_revista.php?<?php echo "year=" . $year . "&month=" . $mes ?>">
+                                            <a href="ediciones/show_revista.php?<?php echo "year=" . $year . "&month=" . $mes ?>">
                                                 <img src="<?php echo $directory . $year . "/" . $mes . "/1.jpg" ?>"   class="img_mes" alt="edicion <?php echo $year . '-' . $mes; ?>"/>
                                             </a>
                                         </div>

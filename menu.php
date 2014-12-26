@@ -31,7 +31,7 @@ $query_result_categorias_menu = mysql_query($query_categorias_menu, $db_conexion
 
             <li><a href="eventos.php">Eventos</a></li>
             <li><a href="fotos.php">Fotos</a></li>
-            <li><a href="ediciones/index.php">Ediciones Anteriores</a></li>
+            <li><a href="ediciones.php">Ediciones Anteriores</a></li>
             <li><a href="clasificados.php">Clasificados Gratis</a></li>
             <li><a href="bolsadetrabajo.php">Bolsa de Trabajo</a></li>
             <li><a href="contacto.php">Contacto</a></li>
