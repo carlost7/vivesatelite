@@ -1,5 +1,5 @@
 <?php
-require_once '../functions.php';
+require_once './functions.php';
 include ("includes/config.php");
 ?>
 <!DOCTYPE html>
